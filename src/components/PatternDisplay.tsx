@@ -6,7 +6,7 @@ interface PatternDisplayProps {
 
 export function PatternDisplay({ pattern }: PatternDisplayProps) {
   return (
-    <div className="w-full glass-panel p-4 sm:p-6 flex flex-col items-center gap-4 sm:gap-6">
+    <div className="w-full glass-panel p-7 sm:p-8 flex flex-col items-center gap-4 sm:gap-6">
       <h2 className="text-2xl sm:text-3xl font-black text-purple-600 tracking-wide">What comes next?</h2>
       
       <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 w-full">

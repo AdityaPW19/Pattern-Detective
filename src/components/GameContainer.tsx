@@ -103,7 +103,7 @@ export function GameContainer({
       initial={{ opacity: 0, x: 50 }}
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -50 }}
-      className="w-full max-w-2xl mx-auto flex flex-col items-center justify-start flex-1 self-start mt-2 sm:mt-6 gap-6 sm:gap-8"
+      className="w-full max-w-md mx-auto flex flex-col items-center gap-8 sm:gap-8"
     >
       <Header 
         score={score} 

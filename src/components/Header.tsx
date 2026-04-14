@@ -15,7 +15,7 @@ export function Header({ score, level, stars, maxLevels, difficulty, onBack }: H
   const progress = isChallenge ? 100 : (level / maxLevels) * 100;
 
   return (
-    <div className="w-full glass-panel p-3 sm:p-4 flex flex-col gap-2 sm:gap-3">
+    <div className="w-full glass-panel p-4 sm:p-6 flex flex-col gap-2 sm:gap-3">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2 sm:gap-3">
           <button 
